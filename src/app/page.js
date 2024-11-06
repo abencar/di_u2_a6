@@ -28,7 +28,7 @@ export default function Home() {
       <div>
         <LightSwitch />
       </div>
-      <div onClick={handleClickOutside}>
+      <div>
         <ColorSwitch  onChangeColor={handleChangeColor} />
         <br />
       <br />

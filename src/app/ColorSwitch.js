@@ -1,8 +1,6 @@
-export default function ColorSwitch({
-    onChangeColor
-  }) {
+export default function ColorSwitch({onChangeColor}){
     return (
-      <button>
+      <button onClick={onChangeColor}>
         Cambiar color
       </button>
     );
